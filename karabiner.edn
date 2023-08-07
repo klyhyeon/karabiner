@@ -1,0 +1,17 @@
+;; all key maps https://github.com/pqrs-org/Karabiner-Elements/issues/925
+{ 
+ :layers {
+          :caps_mode {:key :caps_lock},
+        } 
+ :main[{:des "capslock layer"
+        :rules [:caps_mode
+                [:##j :left_arrow]
+                [:##l :right_arrow]
+                [:##i :up_arrow]
+                [:##k :down_arrow]
+                [:m :delete_forward]
+                [:n :delete_or_backspace]
+                [:##semicolon :end]
+                [:##quote :home]]}
+       ]
+}
